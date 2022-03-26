@@ -1,0 +1,64 @@
+body *, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    overflow: scroll;
+    background-color: aquamarine;
+    height: 100vh;
+    padding: 0 2%;
+}
+.jogador1,
+.jogador2 {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.jogador1-nome,
+.jogador2-nome {
+    font-size: 2rem;
+}
+.jogador1-pontos-totais,
+.jogador2-pontos-totais {
+    font-size: 5rem;
+}
+.div-jogador1-pontos-atuais,
+.div-jogador2-pontos-atuais {
+    background-color: blue;
+    width: 100%;
+    margin: 15% auto;
+}
+.div-jogador1-pontos-atuais p,
+.div-jogador2-pontos-atuais p {
+    font-size: 2rem;
+}
+.pontos-atuais-jogador1,
+.pontos-atuais-jogador2 {
+    font-size: 2.5rem;
+}
+.configuracoes-jogo {
+    float: left;
+    width: 33%;
+}
+.rolar-dado,
+.guardar-pontos,
+.novo-jogo {
+    display: block;
+    margin: 10% auto;
+    font-size: 1.6em;
+    width: 70%;
+    color: #000;
+    border: 1px solid #000;
+    text-decoration: none;
+    text-align: center;
+}
+.imagem-dado {
+    width: 50%;
+    height: 50.5%;
+    margin: auto;
+}
+.imagem-dado img {
+    width: 100%;
+}
